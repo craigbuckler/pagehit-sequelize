@@ -1,0 +1,28 @@
+{
+  "name": "pagehit-sequelize",
+  "version": "1.0.0",
+  "description": "Page hit counter which saves data to a MySQL database using the Sequelize ORM.",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon --trace-warnings --inspect=0.0.0.0:9229 ./index.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigbuckler/pagehit-sequelize.git"
+  },
+  "author": "Craig Buckler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigbuckler/pagehit-sequelize/issues"
+  },
+  "homepage": "https://github.com/craigbuckler/pagehit-sequelize#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
