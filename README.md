@@ -6,6 +6,8 @@ This is an example project for the purposes of demonstration only. It is not rec
 
 [Docker](https://www.docker.com/) and Docker Compose are required. Enter `docker-compose up` to build and launch MySQL, Adminer, NGINX, and Node.js development containers.
 
+Execute `init.sql` using MySQL tools or [Adminer](http://localhost:8080/) once the MySQL container has started.
+
 Once started, [load any page](http://localhost:8888/) to test four methods of adding a hit counter:
 
 * <http://localhost:8888/page-svg.html>
